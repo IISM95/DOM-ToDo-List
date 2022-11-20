@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: -webkit-linear-gradient(90deg, #1a3f69,#5076a1,#82a7d0,#5076a1,#1a3f69);background: linear-gradient(90deg, #1a3f69,#5076a1,#82a7d0,#5076a1,#1a3f69);
+}
+
+#todo{
+	
+	margin: 50px auto 0px;
+	width: 350px;
+	
+}
+.add1{
+	display: flex;
+	
+}
+#item{
+	width: 100%;
+}
+p{
+	background: -webkit-linear-gradient(190deg, #ffffff,#b46bef,#ac88c8);background: linear-gradient(190deg, #ffffff,#b46bef,#ac88c8);
+	margin: 0;
+	height: 50px;
+	font-family: 'Marck Script', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+
+::placeholder{
+	background: -webkit-linear-gradient(90deg, #ffffff,#ffffff,#d4caff);background: linear-gradient(90deg, #ffffff,#ffffff,#d4caff);
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+}
+input{
+ padding: 0;
+}
+
+#buttons{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+.footer{
+	width: 100px;
+	background-color: rgba(93, 138, 93, 0.644);
+	border: 3px solid rgba(162, 0, 255, 0.24);
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: 'Bad Script', cursive;
+}
+
+li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid rgb(107, 76, 76);
+	margin: 10px 0 10px 0;
+	background: -webkit-linear-gradient(90deg, #ffffff,#f4f0e3,#ede6d0,#bbecb6);background: linear-gradient(90deg, #ffffff,#f4f0e3,#ede6d0,#bbecb6);
+}
+
+#list{
+	padding: 0 ;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+}
+
+.dltLi{
+	width: 14px;
+	height: 14px;
+	
+}
+
+.dltLi{
+	display: flex;
+	justify-content: center;
+   align-items: center;	
+}
